@@ -22,5 +22,4 @@ pub fn run() {
         }
     }
     println!("day01p2: {}", counter);
-    _aoc.submit(&counter.to_string()).unwrap()
 }

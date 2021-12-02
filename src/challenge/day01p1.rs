@@ -10,6 +10,5 @@ pub fn run() {
         last = line;
     }
     println!("day01p1: {}", counter);
-    _aoc.submit(&counter.to_string()).unwrap()
 }
 
