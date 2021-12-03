@@ -5,7 +5,7 @@ pub fn run() {
 
     let mut last1: i32 = -1;
     let mut last2: i32 = -1;
-    let mut last3: i32 = -1;
+    let mut last3: i32;
     let mut last_sum: i32 = 9999999;
      
     for line in lines {

@@ -9,7 +9,7 @@ pub fn run() {
     let dist: i32 = split.next().unwrap().parse().unwrap();
     if dir == "forward" {
       h += dist;
-      v += (dist * aim);
+      v += dist * aim;
     }
     if dir == "down" {
       aim += dist
